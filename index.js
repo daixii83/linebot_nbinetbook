@@ -252,8 +252,11 @@ const main = async () => {
               let author = book['編著者 (245$c)']
               let locAndNum = book['館藏地及索書號(949$a$d$e)']
               // 如果書名有包含 '/' ';'符號則用空白取代
-              if (name.includes('/', ';')) {
+              if (name.includes('/')) {
                 name = name.replace('/', '')
+                
+              }
+              if (name.includes(';')) {
                 name = name.replace(/;/g, '')
               }
               // 如果作者欄位是空值則新增 無資料
