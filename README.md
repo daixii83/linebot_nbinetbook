@@ -8,7 +8,7 @@
 
 ## <a id="addFriend">加入好友</a>
     - 使用line ID : @593wpipy
-    - 掃描QRcode<br>
+    - 掃描QRcode <br>
 
 ## <a id="function">功能介紹</a>
     - 使用指令： 使用說明 或直接點擊下方選單，會回覆機器人的使用說明。
@@ -18,4 +18,4 @@
     - 使用指令： 附近合作館 或直接點擊下方選單，會彈出傳送位置的按鈕，傳送後機器人會依據目前所在位置回覆5筆最近的合作館資訊(範圍10公里以內)，
                 點擊地圖按鈕會導向該合作館的Google Map。
 ## <a id="dataSource">使用API</a>
-    - 機器人使用資料來源：[NBINet圖書聯合目錄(110年第3季)](http://nbiqc.ncl.edu.tw/opendata/nbidata_110Q3.csv)、[NBINet合作館一覽表](https://drive.google.com/uc?export=download&id=1oqNBKanU0oM2qq6yaWw72mYRArxqatTO)
+    - 機器人使用資料 [NBINet圖書聯合目錄(110年第3季)](http://nbiqc.ncl.edu.tw/opendata/nbidata_110Q3.csv) 、 [NBINet合作館一覽表](https://drive.google.com/uc?export=download&id=1oqNBKanU0oM2qq6yaWw72mYRArxqatTO)
